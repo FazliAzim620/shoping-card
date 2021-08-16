@@ -1,0 +1,113 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+     :root {
+        --text-clr: #9c8888;
+    }
+    
+    p {
+        color: #6c757d;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--text-clr);
+    }
+    
+    a:hover {
+        text-decoration: none;
+        color: var(--text-clr);
+    }
+    
+    h1 {
+        color: var(--text-clr);
+    }
+    
+    .main-cart {
+        background-color: #fff;
+    }
+    
+    .product_image img {
+        min-width: 300px;
+        max-height: 250px;
+    }
+    
+    .productName {
+        color: black;
+        font-size: 1.4rem;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+    
+    .card-title p {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    
+    .remove_wish {
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    
+    .quantity-item {
+        position: relative;
+    }
+    
+    .quantity-item::after {
+        content: "(Note mini 1)";
+        position: absolute;
+        width: auto;
+        text-align: center;
+        height: auto;
+        bottom: -20px;
+        right: 3rem;
+        font-size: 0.8rem;
+    }
+    
+    .page-link {
+        line-height: 16px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+    
+    .page-item input {
+        line-height: 26px;
+        padding: 3px;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .page-link:hover {
+        text-decoration: none;
+        color: #495057;
+        outline: none !important;
+    }
+    
+    .page-link:focus {
+        box-shadow: none;
+    }
+    
+    .delete img {
+        width: 30px;
+        height: 20px;
+    }
+    
+    .wish img {
+        width: 30px;
+        height: 20px;
+    }
+    
+    .page-link img {
+        height: 16px;
+        width: 20px;
+    }
